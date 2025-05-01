@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projekt.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1 class="title"> STORE </h1>
+                <div class="menu" onclick="toggleMenu()">☰</div>
+                <div class="button-container">
+                <div class="button"> <a href="index.html"> Home </a> </div>
+                <div class="button"> <a href="product.html"> Products </a> </div>
+                <div class="button"> <a href="contact.html"> Contact</a> </div>
+                <div class="button"> <a href="cart.html"> 🛒 </a> </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="title2">Products Details</h1>
+  
+        <section class="details">
+          <div class="details-container">
+            <div class="product-carousel">
+              <img src="pants-4.jpg" class="product-image" id="product-image" />
+            </div>
+  
+            <div class="description">
+              <h2 class="des-title" id="product-title">Vintage Wash Denim Cargo Pants</h2>
+              <h3>Product Details:</h3>
+              <p class="des-text">
+                These vintage wash denim cargo pants offer a retro feel with a modern twist. Featuring large, utilitarian pockets and a slightly tapered leg, these pants are both practical and stylish. The faded wash and worn look give them a timeless appeal, perfect for a casual streetwear outfit.
+              </p>
+              <label for="size">Choose a size:</label>
+              <select id="size" class="size" id="size">
+                <option value="xs">XS</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xl">XL</option>
+              </select>
+  
+              <input
+                type="submit"
+                value="add to cart"
+                class="cart"
+                id="add-to-cart"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+  
+      <script src="HTMLproject.js"></script>
+      <script src="productDetail.js" ></script>
+    </body>
+  </html>
+  
