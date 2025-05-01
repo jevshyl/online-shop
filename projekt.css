@@ -429,6 +429,11 @@ body:not(:has(:target)) #all {
 
 @media screen and (max-width: 570px) {
 
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
     .newProduct-container{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  
