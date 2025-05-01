@@ -502,6 +502,13 @@ body:not(:has(:target)) #all {
     font-weight: bold;
     font-size:15px;
   }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
 }
 
 /*Contact.html*/
