@@ -1,12 +1,4 @@
-document.getElementById("news-form").addEventListener("submit", function(event) {
-    event.preventDefault(); 
-
-   
-    alert("Your Email was submitted!");
-  });
-
-
-  function toggleMenu() {
+function toggleMenu() {
     document.querySelector(".button-container").classList.toggle("active");
 }
 
