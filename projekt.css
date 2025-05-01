@@ -444,8 +444,6 @@ body:not(:has(:target)) #all {
 
   .category-buttons {
     justify-content: center;
-    width: 90%;           
-    max-width: 570px;  
   }
 
   #pants:target,
