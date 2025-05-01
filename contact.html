@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="projekt.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="title">STORE</h1>
+        <div class="menu" onclick="toggleMenu()">☰</div>
+        <div class="button-container">
+          <div class="button"><a href="index.html"> Home </a></div>
+          <div class="button"><a href="product.html"> Products </a></div>
+          <div class="button"><a href="contact.html"> Contact</a></div>
+          <div class="button"> <a href="cart.html"> 🛒 </a> </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="aboutUs">
+        <div class="aboutus-back">
+          <h1 class="aboutUs-title">About us:</h1>
+          <div class="about-us-container">
+            <p class="AboutUsText">
+              At [Your Brand Name], we're more than just a clothing brand—we’re
+              a movement. Inspired by the streets, music, and urban culture, we
+              create high-quality streetwear that blends style, comfort, and
+              attitude. From bold graphics to minimal essentials, every piece is
+              designed to make a statement. Whether you're in the city or on the
+              move, our gear is built to keep up with your lifestyle.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="cont-backgr">
+          <h1>Contact us!</h1>
+          <form class="contact-form" id="contact">
+            <label for="name" class="label">Name: </label>
+            <input type="text" id="name" class="input" placeholder="Your Name" required />
+            <br />
+            <label for="email" class="label">Email: </label>
+            <input type="email" id="email" class="input" placeholder="mail@example.com" required />
+            <br />
+            <label for="comment" class="label">Comment:</label>
+            <textarea
+              id="comment"
+              class="text"
+              minlength="10"
+              maxlength="500"
+              required
+              placeholder="Enter your comment"
+            ></textarea>
+            <br />
+            <input type="submit" class="input" id="submit" />
+            <br />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="HTMLproject.js"></script>
+    <script src="contact.js"></script>
+    
+  </body>
+</html>

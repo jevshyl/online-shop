@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="projekt.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="title">STORE</h1>
+        <div class="menu" onclick="toggleMenu()">☰</div>
+        <div class="button-container">
+          <div class="button"><a href="index.html"> Home </a></div>
+          <div class="button"><a href="product.html"> Products </a></div>
+          <div class="button"><a href="contact.html"> Contact</a></div>
+          <div class="button"><a href="cart.html"> 🛒 </a></div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="cart-main">
+      <h1>Your Cart</h1>
+      <div id="cart-items"></div>
+
+      <div id="pay">
+        <button class="pay">
+          <a href="pay.html">Pay</a>
+        </button>
+      </div>
+
+    </main>
+
+    <script src="HTMLproject.js"></script>
+    <script src="cart.js"></script>
+    
+  </body>
+</html>
