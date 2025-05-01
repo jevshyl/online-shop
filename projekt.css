@@ -404,10 +404,12 @@ body:not(:has(:target)) #all {
   }
 
   .news {
-    justify-self: center;
-    margin: 0px;
     margin-top: 20px;
-    width: 90%;
+  }
+
+  .mail-container {
+    padding: 40px;
+    padding-top: 10px;
   }
 
   .filterButton {
