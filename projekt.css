@@ -100,6 +100,16 @@ nav {
   scroll-behavior: smooth;
 }
 
+.category-box::-webkit-scrollbar{
+    background-color: rgb(208, 208, 208);
+    border-radius: 10px;
+}
+
+  .category-box::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+
 .cat1 {
   width: 10%;
   min-width: 200px;
@@ -428,10 +438,9 @@ body:not(:has(:target)) #all {
   }
 
   .category-buttons {
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    gap: 10px;
+    width: 90%;           
+    max-width: 570px;  
+    margin: auto auto;
   }
 
   #pants:target,
