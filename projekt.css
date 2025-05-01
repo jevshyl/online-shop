@@ -319,9 +319,10 @@ body:not(:has(:target)) #all {
     position: absolute;
     top: 10px;
     right: 30px;
-    background-color: rgb(210, 210, 210);
+    background-color: rgba(210, 210, 210, 1);
     padding: 20px;
     border-radius: 5px;
+    z-index: 9999;
   }
 
   .button-container.active {
