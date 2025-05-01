@@ -28,5 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     localStorage.setItem("cart", JSON.stringify(cart));
+
+    alert("Product added to the cart!");
+
   });
 });

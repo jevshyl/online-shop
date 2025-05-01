@@ -12,6 +12,16 @@ document.getElementById("news-form").addEventListener("submit", function(event) 
     document.querySelector(".button-container").classList.toggle("active");
 }
 
+//clear mail
 
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .getElementById("news-form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      alert("Your mail was submitted!");
+      this.reset();
+    });
+});
 
 
