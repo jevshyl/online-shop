@@ -431,8 +431,6 @@ body:not(:has(:target)) #all {
     border-radius: 10%;
     scale: 1;
     box-shadow: none;
-    display: flex;
-    justify-self: center;
   }
 
   .filterButton:hover {
