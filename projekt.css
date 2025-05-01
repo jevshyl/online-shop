@@ -503,12 +503,13 @@ body:not(:has(:target)) #all {
     font-size:15px;
   }
 
-  main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-}
+  body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+  }
+
 }
 
 /*Contact.html*/
