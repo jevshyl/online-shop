@@ -4,12 +4,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const productTitle = document.getElementById("product-title").innerText;
     const productImage = document.getElementById("product-image").src;
     const selectedSize = document.getElementById("size").value;
+    const productPrice = parseFloat(document.getElementById("product-price").innerText.replace('CHF', ''));
 
     const product = {
       title: productTitle,
       image: productImage,
       size: selectedSize,
       quantity: 1,
+      price: productPrice,
     };
 
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
