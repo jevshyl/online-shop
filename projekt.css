@@ -384,11 +384,11 @@ body:not(:has(:target)) #all {
     margin-top: 30px;
   }
 
-  .news{
-    display: block;
-    margin: 20px auto;
-    width: 90%;
-
+  .news {
+    margin: 20px auto;   
+    padding: 0;          
+    width: 90%;           
+    max-width: 570px;     
   }
 
   .categories{
