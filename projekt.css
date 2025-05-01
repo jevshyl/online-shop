@@ -486,6 +486,11 @@ body:not(:has(:target)) #all {
   .description {
     margin-top: -50px;
   }
+
+  .pay{
+    font-weight: bold;
+    font-size:15px;
+  }
 }
 
 /*Contact.html*/
