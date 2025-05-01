@@ -361,6 +361,7 @@ body:not(:has(:target)) #all {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
   }
+ 
 
   .image:hover {
     -webkit-transition: 0.2s ease-in-out;
@@ -370,10 +371,6 @@ body:not(:has(:target)) #all {
 }
 
 @media screen and (max-width: 570px) {
-  main {
-    display: flex;
-    flex-direction: column;
-  }
 
   .newProduct-container {
     display: grid;
@@ -410,6 +407,8 @@ body:not(:has(:target)) #all {
     border-radius: 10%;
     scale: 1;
     box-shadow: none;
+    display: flex;
+    justify-self: center;
   }
 
   .filterButton:hover {
@@ -424,6 +423,24 @@ body:not(:has(:target)) #all {
     align-self: center;
     justify-self: center;
     gap: 10px;
+  }
+
+  #pants:target,
+#shirt:target,
+#hoodie:target,
+#jacket:target,
+#all:target,
+body:not(:has(:target)) #all {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 10px;
+}
+  
+  .image {
+    border-radius: 10%;
+    width: 100%;
+    margin-top: 40px;
   }
 
   .image:hover {
