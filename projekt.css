@@ -373,25 +373,21 @@ body:not(:has(:target)) #all {
 }
 
 @media screen and (max-width: 570px) {
-  .newProduct-container {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 0;
-    scale: 1.3;
-    margin: 0px;
-    justify-self: center;
-    margin-top: 100px;
+  .newProducts,
+  .categories,
+  .news {
+    margin: 20px auto;        
+    width: 90%;              
+    max-width: 570px;
   }
 
   .newProducts {
     margin-top: 30px;
-    margin-bottom: -90px;
   }
 
   .categories{
-    margin: 0px;
-    margin-top: 200px;
+    margin-top: 40px;
     width: 80%;
-    justify-self: center;
   }
 
   .category-box {
@@ -501,13 +497,6 @@ body:not(:has(:target)) #all {
   .pay{
     font-weight: bold;
     font-size:15px;
-  }
-
-  body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-self: center;
   }
 
 }
