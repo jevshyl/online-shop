@@ -374,8 +374,7 @@ body:not(:has(:target)) #all {
 
 @media screen and (max-width: 570px) {
   .newProducts,
-  .categories,
-  .news {
+  .categories {
     margin: 20px auto;        
     width: 90%;              
     max-width: 570px;
@@ -383,6 +382,12 @@ body:not(:has(:target)) #all {
 
   .newProducts {
     margin-top: 30px;
+  }
+
+  .news{
+    margin: 20px auto;
+    width: 90%;
+    
   }
 
   .categories{
@@ -399,12 +404,9 @@ body:not(:has(:target)) #all {
     height: 80px;
   }
 
-  a {
-    padding: 10px;
-  }
-
   .mail-container {
     padding-top: 10px;
+    margin: 0;
   }
 
   .filterButton {
@@ -456,10 +458,6 @@ body:not(:has(:target)) #all {
     -webkit-transition: none;
     transition: none;
     box-shadow: none;
-  }
-
-  .mail-container {
-    margin: 0;
   }
 
   .submit {
