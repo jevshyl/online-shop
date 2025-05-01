@@ -403,12 +403,7 @@ body:not(:has(:target)) #all {
     padding: 10px;
   }
 
-  .news {
-    margin-top: 20px;
-  }
-
   .mail-container {
-    padding: 40px;
     padding-top: 10px;
   }
 
